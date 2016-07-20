@@ -1,3 +1,5 @@
 .gardle
 .idea
 build
+xml-calculator_main.iml
+xml-calculator_test.iml
