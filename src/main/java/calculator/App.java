@@ -21,17 +21,15 @@ public class App {
 
     public static void main(String[] args) {
         try {
-
-            SimpleCalculatorOutput result = new SimpleCalculatorOutput();
-            SimpleCalculator customer = getSimpleCalculatorFromFile(INPUT_FILE);
-            List<Statement> statementExpressions = new XmlInputToStatementMapper().map(customer);
+            SimpleCalculatorOutput output = new SimpleCalculatorOutput();
+            SimpleCalculator inputExpression = getSimpleCalculatorFromFile(INPUT_FILE);
+            List<Statement> statementExpressions = new XmlInputToStatementMapper().map(inputExpression);
 
             for (Statement expression : statementExpressions) {
-                result.addResult(expression.getValue());
+                output.addResult(expression.getValue());
             }
 
-            saveResultToFile(result);
-
+            saveResultToFile(output);
         } catch (JAXBException e) {
             e.printStackTrace();
         }

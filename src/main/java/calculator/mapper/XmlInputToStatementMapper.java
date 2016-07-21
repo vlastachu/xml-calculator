@@ -17,7 +17,7 @@ import java.util.*;
  */
 public class XmlInputToStatementMapper {
 
-    public static Map<String, Class<?>> STATEMENT_TYPES = new HashMap<String, Class<?>>() {{
+    private static Map<String, Class<?>> STATEMENT_TYPES = new HashMap<String, Class<?>>() {{
         put("SUM", Addition.class);
         put("DIV", Division.class);
         put("SUB", Subtraction.class);
