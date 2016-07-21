@@ -1,4 +1,4 @@
-package calculator.impl1.model;
+package calculator.impl1recursion.model;
 
 /**
  * Created by ingvard on 20.07.16.

@@ -1,11 +1,11 @@
-package calculator.impl1;
+package calculator.impl1recursion;
 
-import calculator.impl1.model.Operand;
-import calculator.impl1.model.Statement;
-import calculator.impl1.model.operation.Addition;
-import calculator.impl1.model.operation.Division;
-import calculator.impl1.model.operation.Multiplication;
-import calculator.impl1.model.operation.Subtraction;
+import calculator.impl1recursion.model.Operand;
+import calculator.impl1recursion.model.Statement;
+import calculator.impl1recursion.model.operation.Addition;
+import calculator.impl1recursion.model.operation.Division;
+import calculator.impl1recursion.model.operation.Multiplication;
+import calculator.impl1recursion.model.operation.Subtraction;
 
 /**
  * Created by ingvard on 21.07.16.

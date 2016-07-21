@@ -1,7 +1,7 @@
-package calculator.impl1.model.operation;
+package calculator.impl1recursion.model.operation;
 
-import calculator.impl1.model.AbstractOperation;
-import calculator.impl1.model.Statement;
+import calculator.impl1recursion.model.AbstractOperation;
+import calculator.impl1recursion.model.Statement;
 
 /**
  * Created by ingvard on 20.07.16.
